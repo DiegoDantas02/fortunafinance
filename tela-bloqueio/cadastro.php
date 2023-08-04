@@ -4,17 +4,13 @@
     <a href="../tela-bloqueio/login.php">
         <img src="../img/logo.png" alt="imagem do logo da empresa" class="logo">
     </a>
-
-
 </div>
 
 <head>
 
 <body>
     <link rel="stylesheet" href="../css/cadastro.css">
-
     </head>
-
     <body>
 
         <div class="container">
@@ -25,21 +21,21 @@
             <br>
             <br>
             <!-- tela de cadastro -->
-            <form method="POST" action="login.php">
-                <div class="escrita">Nome Login:</div>
-                <input type="text" name="username" placeholder="Fortuna Company" required>
-                <br>
-                <div class="escrit">Senha:</div>
-                <input type="password" name="password" placeholder="Senha" required>
-                <br>
-                <div class="escritas">Nome da Empresa:</div>
-                <input type="name" name="nome" placeholder="Fortuna Company" class="c2" required>
-                <br>
+            <form action="../tela-bloqueio/login.php" method="post">
+
                 <div class="escrit">E-mail:</div>
                 <input type="email" name="email" placeholder="email@fortuna.com.br" class="c2" required>
                 <br>
+
+                <div class="escrit">Senha:</div>
+                <input type="password" name="senha" placeholder="Senha" required>
+                <br>
+                <div class="escritas">Nome da Empresa:</div>
+                <input type="name" name="nome_da_empresa" placeholder="Fortuna Company" class="c2" required>
+                <br>
+
                 <div class="escritas">Número de contato:</div>
-                <input type="text" name="telefone" id="phone-input" placeholder="celular" class="c2" required>
+                <input type="text" name="contato" id="phone-input" placeholder="celular" class="c2" required>
                 <br>
                 <br>
                 <button type="submit">REGISTRAR</button>
