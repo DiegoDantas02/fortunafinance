@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header style="margin-top: -165px;">
+  <header style="margin-top: -956px; position:absolute;">
     <img src="../img/logo.png" alt="Logo">
     <div class="buttons">
       <a href="../inicio/home.html" >ínicio</a>
