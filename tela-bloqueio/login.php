@@ -17,15 +17,15 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
         if (!isset($_SESSION)) {
             session_start();
         }
-        $_SESSION["email"] = $email;
+        $_SESSION["email"] = $email . $senha;
         
         // Redirecionar para a página de destino
         header('Location: ../inicio/home.php');
-        exit();
-    
+        
     } else {
         echo "Falha ao logar! Email ou senha inválidos";
     }
+    exit();
 }
 ?>
 

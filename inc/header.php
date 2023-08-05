@@ -11,10 +11,11 @@
 </head>
 
 <body>
-  <header style="margin-top: -956px; position:absolute;">
-    <img src="../img/logo.png" alt="Logo">
+  
+  <header style="margin-top: -956px; position:absolute;" >
+  <a href="../inicio/home.php"> <img src="../img/logo.png" alt="Logo"></a>
     <div class="buttons">
-      <a href="../inicio/home.html" >ínicio</a>
+      <a href="../inicio/home.php" >ínicio</a>
       <a href="../tela-bloqueio/login.php">Sair</a>
     </div>
   </header>
