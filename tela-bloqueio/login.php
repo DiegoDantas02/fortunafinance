@@ -11,7 +11,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
     $resultado = mysqli_query($conexao, $sql) or die("Falha na execução do código SQL: " . $conexao->error);
 
     if (mysqli_num_rows($resultado) > 0) {
-        $t_cliente = $resultado->fetch_assoc();
+        $cadastro = $resultado->fetch_assoc();
 
         // Iniciar a sessão
         if (!isset($_SESSION)) {
