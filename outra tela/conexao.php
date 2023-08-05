@@ -2,7 +2,7 @@
 
 $usuario = 'root';
 $senha = '';
-$database = 'projeto_software)';
+$database = 'financa';
 $host = 'localhost';
 
 $mysqli = new mysqli($host, $usuario, $senha, $database);
