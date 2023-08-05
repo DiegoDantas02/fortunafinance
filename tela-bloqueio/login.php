@@ -22,10 +22,11 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
         // Redirecionar para a página de destino
         header('Location: ../inicio/home.php');
         
+        exit();
     } else {
         echo "Falha ao logar! Email ou senha inválidos";
     }
-    exit();
+    
 }
 ?>
 
