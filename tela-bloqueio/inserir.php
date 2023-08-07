@@ -1,16 +1,16 @@
 <?php
 include "../inc/conexao.php";
 
-$nome = $_POST["nome"];
 $email = $_POST["email"];
-$contato = $_POST["contato"];
 $senha = $_POST["senha"];
+$nome = $_POST["nome"];
+$contato = $_POST["contato"];
 
-$sql = "insert into cadastro (nome, email, contato, senha) values('$nome', '$email', '$contato', '$senha')";
+$sql = "insert into cadastro (email, senha, nome, contato) values('$email', '$senha', '$nome', '$contato')";
 
 mysqli_query($conexao, $sql);
 mysqli_close($conexao);
 
-header("Location: ../tela-bloqueio/login.php");
+header("Location: ../inicio/home.php");
 
 ?>

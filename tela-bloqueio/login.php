@@ -17,7 +17,8 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
         if (!isset($_SESSION)) {
             session_start();
         }
-        $_SESSION["email"] = $email . $senha;
+        $_SESSION["email"] = $email;
+        $_SESSION["senha"] = $senha;
         
         // Redirecionar para a página de destino
         header('Location: ../inicio/home.php');
@@ -56,7 +57,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
             <input type="password" name="senha" placeholder="Senha" required>
             <br>
             <br>
-            <button type="submit">Entrar</button>
+            <button type="submit" >Entrar</button>
         </form>
 
         <p>Ainda não tem uma conta? <a href="cadastro.php">Cadastrar-se</a></p>
