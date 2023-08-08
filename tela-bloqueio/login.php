@@ -6,7 +6,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
     $email = $conexao->real_escape_string($_POST['email']);
     $senha = $conexao->real_escape_string($_POST['senha']);
 
-    // Consulta na tabela 't_cliente'
+    // Consulta na tabela 'cadastro'
     $sql = "SELECT * FROM cadastro WHERE email = '$email' AND senha = '$senha'";
     $resultado = mysqli_query($conexao, $sql) or die("Falha na execução do código SQL: " . $conexao->error);
 
