@@ -19,6 +19,4 @@
             <a href="../tela-bloqueio/login.php" style="border-radius:5px; font-size:20px;">Sair</a>
         </div>
     </header>
-</body>
 
-</html>

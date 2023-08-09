@@ -2,7 +2,7 @@
 <?php include "../inc/conexao.php"; ?>
 
 
-<body>
+
 
             <h2>Controle de despesas</h2>
 
