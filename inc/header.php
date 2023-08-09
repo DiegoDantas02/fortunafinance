@@ -12,10 +12,10 @@
 
 <body>
     <header>
-        <a href="../inicio/home.php"><img src="../img/logo.png" alt="Logo"></a>
+        <a href="../inicio/home.php"><img src="../img/logo.png" alt="Logo" style="height:60px; width: 180px;"></a>
         <div class="buttons">
-            <a href="../inicio/home.php">Ínicio</a>
-            <a href="../tela-bloqueio/login.php">Sair</a>
+            <a href="../inicio/home.php" style="background-color: green; border-radius:5px; font-size:20px;">Ínicio</a>
+            <a href="../tela-bloqueio/login.php" style="border-radius:5px; font-size:20px;">Sair</a>
         </div>
     </header>
 </body>
