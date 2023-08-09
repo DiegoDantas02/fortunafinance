@@ -170,7 +170,8 @@ input[type='number'] {
     body {
       margin: 0;
       padding: 0;
-      
+      margin-top: -10px;
+            font-family: Arial, sans-serif;
     }
     
     
@@ -178,22 +179,27 @@ input[type='number'] {
       background-color: black;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       color: white;
-      padding: 5px;
+      padding: 10px;
       display: flex;
       justify-content: space-around;
       align-items: center;
       width: 100%;
+      text-align: center;
+      position: relative;
       
       
     }
     
     header img {
-      height: 40px;
+      height: auto;
       width: 130px;
+      margin-bottom: 10px;
+      max-width: 100%;
     }
     
     header .buttons {
       display: flex;
+      flex-direction: column;
       gap: 10px;
     }
     
@@ -211,6 +217,22 @@ input[type='number'] {
     header .buttons a:last-child {
       background-color: red;
     }
+    
+    @media screen and (min-width: 768px) {
+      header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      header img {
+          margin-bottom: 0;
+      }
+
+      header .buttons {
+          flex-direction: row;
+      }
+  }
  /* footer */
  footer {
   background-color: black;
@@ -221,37 +243,4 @@ input[type='number'] {
   
 }
 /* botão */
-/* Estilos para tornar o cabeçalho responsivo */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
 
-header {
-  background-color: #f8f8f8;
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-}
-
-header img {
-  max-width: 100px;
-  margin-left: 20px;
-}
-
-.buttons {
-  margin-right: 20px;
-}
-
-.buttons a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #333;
-}
