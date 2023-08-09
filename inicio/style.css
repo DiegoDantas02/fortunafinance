@@ -221,4 +221,38 @@ input[type='number'] {
   
 }
 /* botão */
+/* Estilos para tornar o cabeçalho responsivo */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+header img {
+  max-width: 100px;
+  margin-left: 20px;
+}
+
+.buttons {
+  margin-right: 20px;
+}
+
+.buttons a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
 

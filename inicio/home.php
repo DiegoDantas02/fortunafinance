@@ -31,13 +31,14 @@
 
         <form id="form">
             <div class="form-control">
-                <label for="text">Nome</label>
+                <label for="text">Nome:</label>
                 <input autofocus type="text" id="text" placeholder="Nome da transação" />
             </div>
 
             <div class="form-control">
                 <label for="amount">Valor <br />
-                    <small>(negativo - despesas, positivo - receitas)</small>
+                    <small>(-negativo - despesas, positivo - receitas)</small>
+                   
                 </label>
                 <input type="number" id="amount" placeholder="Valor da transação" />
             </div>
