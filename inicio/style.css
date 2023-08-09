@@ -19,9 +19,15 @@ body {
   font-family: 'Lato', sans-serif;
   
 }
+/* botão do header */
 .buttons{
   margin-right: 70px;
   
+}
+/* logo */
+.logo{
+  height:60px; width: 180px;
+
 }
 
 .container {
