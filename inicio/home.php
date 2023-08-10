@@ -1,10 +1,11 @@
-
-<?php include "../inc/conexao.php"; include "../inc/cabecalho.php"; ?>
-
+<?php include "../inc/conexao.php";
+?>
 <link rel="stylesheet" href="../inicio/style.css">
+<link rel="stylesheet" href="../css/cabecalho.css">
+
 <body>
 
-            <h2>Controle de despesas</h2>
+    <h2>Controle de despesas</h2>
 
     <div class="container">
         <h4>Saldo atual</h4>
@@ -23,11 +24,11 @@
             </div>
         </div>
 
-                <h3>Transações</h3>
+        <h3>Transações</h3>
 
         <ul id="transactions" class="transactions"></ul>
 
-                <h3>Adicionar transação</h3>
+        <h3>Adicionar transação</h3>
 
         <form id="form">
             <div class="form-control">
@@ -38,7 +39,7 @@
             <div class="form-control">
                 <label for="amount">Valor <br />
                     <small>(-negativo - despesas, positivo - receitas)</small>
-                   
+
                 </label>
                 <input type="number" id="amount" placeholder="Valor da transação" />
             </div>
