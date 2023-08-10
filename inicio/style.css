@@ -177,7 +177,7 @@ input[type='number'] {
     header {
       background-color: black;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-      color: white;
+      /* color: white; */
       padding: 5px;
       display: flex;
       justify-content: space-around;
