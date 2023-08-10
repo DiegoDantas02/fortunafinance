@@ -1,7 +1,7 @@
 <?php include "../inc/header.php"; ?>
 <?php include "../inc/conexao.php"; ?>
 
-
+<link rel="stylesheet" href="../inicio/style.css">
 <body>
 
             <h2>Controle de despesas</h2>
