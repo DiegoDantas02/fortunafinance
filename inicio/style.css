@@ -211,15 +211,7 @@ input[type='number'] {
     header .buttons a:last-child {
       background-color: red;
     }
- /* footer */
- footer {
-  background-color: black;
-  color: white;
-  width: 100%;
-  text-align: center;
-  
-  
-}
+ 
 /* botão */
 /* Estilos para tornar o cabeçalho responsivo */
 body {
