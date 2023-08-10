@@ -7,9 +7,10 @@
 * {
   box-sizing: border-box;
 }
-/* 
+
+/* FUNDO DA HOME */
 body {
-  background-color: #000000;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +19,7 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   
-} */
+} 
 
 .container {
   margin: 30px auto;
@@ -41,7 +42,7 @@ h4 {
   margin: 0;
   text-transform: uppercase;
 }
-
+/* receitas/despesas design */
 .inc-exp-container {
   /* background: linear-gradient(to bottom, #3dd61b, #c0392b); */
   background-color: #fff;
@@ -52,13 +53,13 @@ h4 {
   margin: 20px 0;
 }
 
-.inc-exp-container > div {
+.inc-exp-container>div {
   flex: 1;
   text-align: center;
-  
+
 }
 
-.inc-exp-container > div:first-of-type {
+.inc-exp-container>div:first-of-type {
   border-right: 1px solid #dedede;
 }
 
@@ -69,7 +70,7 @@ h4 {
 }
 
 .money.plus {
-  color:#3dd61b;
+  color: #3dd61b;
 }
 
 .money.minus {
@@ -102,8 +103,9 @@ input[type='number'] {
   margin: 10px 0 30px;
   padding: 10px;
   width: 100%;
-  
+
 }
+
 .meu-botao {
   background-color: #3dd61b;
   color: white;
@@ -143,9 +145,9 @@ input[type='number'] {
 }
 
 .transactions li.minus {
-  border-right: 5px solid #c0392b;
+  border-right: 5px solid #ff0000;
 }
-
+/* cor desgn da receita */
 .delete-btn {
   cursor: pointer;
   background-color: #e74c3c;
@@ -165,53 +167,54 @@ input[type='number'] {
 .transactions li:hover .delete-btn {
   opacity: 1;
 }
+
 /* cabeçalho */
 
-    body {
-      margin: 0;
-      padding: 0;
-      
-    }
-    
-    
-    header {
-      background-color: black;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-      /* color: white; */
-      padding: 5px;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
-      
-      
-    }
-    
-    header img {
-      height: 40px;
-      width: 130px;
-    }
-    
-    header .buttons {
-      display: flex;
-      gap: 10px;
-    }
-    
-    header .buttons a {
-      background-color: black;
-      color: white;
-      padding: 5px 10px;
-      text-decoration: none;
-    }
-    
-    header .buttons a:hover {
-      background-color: #333;
-    }
-    
-    header .buttons a:last-child {
-      background-color: red;
-    }
- 
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+header {
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* color: white; */
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+
+}
+
+header img {
+  height: 40px;
+  width: 130px;
+}
+
+header .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+header .buttons a {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+header .buttons a:hover {
+  background-color: #333;
+}
+
+header .buttons a:last-child {
+  background-color: red;
+}
+
 /* botão */
 /* Estilos para tornar o cabeçalho responsivo */
 body {
@@ -247,4 +250,3 @@ header img {
   text-decoration: none;
   color: #333;
 }
-
