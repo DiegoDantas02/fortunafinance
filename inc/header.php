@@ -18,8 +18,6 @@
             <a href="../tela-bloqueio/login.php" class="botao-sair-header">Sair</a>
         </div>
     </header>
-    <div style="margin-top: 70px;"> <!-- Espaço para evitar que o conteúdo seja sobreposto pelo cabeçalho -->
-
-    </div>
+     <div style="margin-top: 70px;"></div> 
 </body>
 </html>

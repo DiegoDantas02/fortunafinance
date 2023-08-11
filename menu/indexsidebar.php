@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="sidebarstyle.css"> -->
+    <link rel="stylesheet" href="sidebarstyle.css"> 
     <title> Menu Responsivo</title>
 </head>
 
@@ -35,6 +35,11 @@
         <a href="#"><ion-icon name="calendar-clear-outline"></ion-icon><span>Galeria</span></a>
         <a href="#"><ion-icon name="camera-outline"></ion-icon><span>Sobre</span></a>
         <a href="#"><ion-icon name="settings-outline"></ion-icon><span>Configuração</span></a>
+    </div>
+    <!-- corpo da pagina -->
+    
+    <div class="main">
+
     </div>
     <!-- Sidebar final  -->
     <div class="content"></div>

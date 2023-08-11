@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="footer.css">
-<footer >
+<link rel="stylesheet" href="rodape.css">
+<footer class="footer" >
     <p> &copy; 2023 Software De Finanças - Desenvolvido por 🤍 <a href="mailto:diegorodriguesdantas02@gmail.com" style="text-decoration: none; color: green;">Diego Dantas</a></p>
 </footer>
 </body>
