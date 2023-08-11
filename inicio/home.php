@@ -1,5 +1,5 @@
-<?php include "../inc/conexao.php";
-?>
+<?php include "../inc/conexao.php";?>
+<?php include "../inc/header.php";?>
 <link rel="stylesheet" href="../inicio/style.css">
 <link rel="stylesheet" href="../css/cabecalho.css">
 
