@@ -7,7 +7,7 @@
     
     
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
-    
+    <link rel="stylesheet" href="../css/cabecalho.css">
     <title>Controle de despesas</title>
    
 </head>
