@@ -1,15 +1,15 @@
 <?php include "../inc/header.php"; ?>
 <?php include "../inc/conexao.php"; ?>
-<<<<<<< Updated upstream
+
 
 <!-- css da home.php -->
 <link rel="stylesheet" href="../inicio/style.css" />
-=======
+
 <div>
     
 </div>
 <body>
->>>>>>> Stashed changes
+
 
             <h2>Controle de despesas</h2>
 
