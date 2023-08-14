@@ -14,6 +14,7 @@
 
 <body>
     <header>
+<<<<<<< Updated upstream
          <a href="../inicio/home.php"><img src="../img/logo.png" alt="Logo" class="logo"></a>
         <div class="buttons">
             <a href="../inicio/home.php" style="background-color: green; border-radius:5px; font-size:20px;">Ínicio</a>
@@ -22,4 +23,14 @@
         <!-- ------- -->
      
 
+=======
+        <a href="../inicio/home.php"><img src="../img/logo.png" alt="Logo" class="logo"></a>
+        <div class="buttons">
+            <a href="../inicio/home.php" style="background-color: green; border-radius:5px; font-size:20px;">Ínicio</a>
+            <a href="../tela-bloqueio/login.php" style="border-radius:5px; font-size:20px;">Sair</a>
+        </div>
+       
+        
+</body>
+>>>>>>> Stashed changes
 </html>
