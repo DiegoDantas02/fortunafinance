@@ -105,7 +105,7 @@ label #sidebar_btn:hover{
     margin-left: 170px;
     width:80px ;
 }
-body{
+.content{
     background: url(../img/mesa.png) no-repeat;
     background-size: cover;
     background-position: center;

@@ -4,18 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../menu/sidebarstyle.css"> 
-    <link rel="shortcut icon" href="../img/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="sidebarstyle.css"> 
     <title> Menu Responsivo</title>
 </head>
-<style>
-.main{
-    color: blueviolet;
-    text-align: center;
-    padding-top: 200px;
-}
 
-</style>
 <body>
     <input type="checkbox" id="check">
 
@@ -35,7 +27,7 @@
     <!-- Sidebar começo  -->
     <div class="sidebar">
         <center>
-            <img src="../img/fav.png" alt="" class="image">
+            <img src="../img/logo.png" alt="" class="image">
             <h2> Bryan </h2>
         </center>
         <a href="#"><ion-icon name="desktop-outline"></ion-icon><span>Painel</span></a>
@@ -46,21 +38,12 @@
     </div>
     <!-- corpo da pagina -->
     
+    <div class="main">
+
+    </div>
     <!-- Sidebar final  -->
-    <div>
-        <div class="main">
-            <br>
-            <br>
-            <h1>aaaaaaaaaaaaaaaaaaaaaaoooooooooooooobaaaa</h1><br>
-            <h1>aaaaaaaaaaaaaaaaaaaaaaoooooooooooooobaaaa</h1><br>
-            <h1>aaaaaaaaaaaaaaaaaaaaaaoooooooooooooobaaaa</h1><br>
-            <h1>aaaaaaaaaaaaaaaaaaaaaaoooooooooooooobaaaa</h1><br>
-            <h1>aaaaaaaaaaaaaaaaaaaaaaoooooooooooooobaaaa</h1><br>
-            <h1>aaaaaaaaaaaaaaaaaaaaaaoooooooooooooobaaaa</h1><br>
-            <h1>aaaaaaaaaaaaaaaaaaaaaaoooooooooooooobaaaa</h1><br>
-            </div>
-        </div>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <div class="content"></div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
