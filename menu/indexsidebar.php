@@ -31,12 +31,13 @@
     <div class="sidebar">
         <center>
             <img src="../img/icone.png" alt="" class="image">
-            <h2><?php echo $nome; ?></h2>
+            
+            <h2>Usuário $Fortuna </h2>
         </center>
         <a href="#"><ion-icon name="images-outline"></ion-icon><span>Inicio</span></a>
         <a href="../inicio//home.php"><ion-icon name="desktop-outline"></ion-icon><span>Painel</span></a>
         <!-- <a href="#"><ion-icon name="calendar-clear-outline"></ion-icon><span>Galeria</span></a> -->
-        <a href="../sobrenos/sobre.php"><ion-icon name=""></ion-icon><span>Sobre</span></a>
+        <a href="../sobrenos/sobre.php"> <ion-icon name="alert-circle-outline"></ion-icon><span>Sobre</span></a>
         <!-- <a href="#"><ion-icon name="settings-outline"></ion-icon><span>Configuração</span></a> -->
     </div>
     
