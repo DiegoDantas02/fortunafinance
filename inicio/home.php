@@ -1,10 +1,10 @@
-<?php include "../inc/header.php"; ?>
+
 <?php include "../inc/conexao.php"; ?>
 
 
-<!-- css da home.php -->
+<!-- css da home.php config do layout principal -->
 <link rel="stylesheet" href="../inicio/style.css" />
-
+<!-- ------------------------------------------ -->
 <div>
     
 </div>
