@@ -23,29 +23,34 @@
         }
 
         .logo {
-            max-width: 100px;
+            max-width: 500px;
             height: auto;
         }
 
         .buttons {
             display: flex;
-            gap: 10px;
+            gap: 20px;
         }
 
         .buttons a {
             text-decoration: none;
-            padding: 5px 10px;
+            padding: 10px 10px;
             border-radius: 5px;
-            font-size: 16px;
+            font-size: 20px;
             color: #fff;
         }
-
+        /* cor de fundo botão inicio */
         .buttons a:nth-child(1) {
             background-color: green;
         }
 
         .buttons a:nth-child(2) {
-            background-color: #333;
+            background-color:#555;
+            transition: 0.3s; /* Adicionado para criar um efeito de destaque botão inicio */
+        }
+
+        .buttons a:nth-child(2):hover {
+            background-color: #555; /* Nova cor quando o mouse passa por cima botão sair */
         }
 
         @media screen and (max-width: 768px) {
