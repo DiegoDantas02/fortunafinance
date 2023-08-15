@@ -1,5 +1,6 @@
 
 <?php include "../inc/conexao.php"; ?>
+<?php include "../inc/header.php"; ?>
 
 
 <!-- css da home.php config do layout principal -->
