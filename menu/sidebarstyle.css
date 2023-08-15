@@ -118,3 +118,8 @@ label #sidebar_btn:hover{
 #check{
     display: none;
 }
+/* Estilize o ícone */
+.icon {
+    font-size: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+    margin-right: 10px; /* Adicione espaçamento à direita do ícone */
+}
