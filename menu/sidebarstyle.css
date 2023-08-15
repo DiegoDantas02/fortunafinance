@@ -24,14 +24,14 @@ header{
     color: #ffffff;/*cor da escrita segunda palavra*/
 }
 .sair_btn{
-    padding: 5px;
+    padding: 50px;
     background:#0e6027;
     text-decoration: none;
     float: right;
     margin-top: -30px;
     margin-right: 40px;
     border-radius: 3px;
-    font-size: 15px;
+    font-size: 50px;
     font-weight: 500;
     color: #fff;
     transition: 0.5s;
