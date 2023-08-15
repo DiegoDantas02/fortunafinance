@@ -38,6 +38,7 @@
         <a href="../inicio/home.php"><ion-icon name="stats-chart-outline" class="icon"></ion-icon><span>Painel</span></a>
         <a href="../sobrenos/sobre.php"><ion-icon name="help-circle-outline" class="icon"></ion-icon><span>Sobre</span></a>
     </div>
+    
     <!-- Sidebar final  -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
