@@ -21,7 +21,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
         
         
         // Redirecionar para a página de destino
-        header('Location: ../menu/indexsidebar.php');
+        header('Location: ../menu/indexsidebar.php'); 
         
         exit();
     } else {
