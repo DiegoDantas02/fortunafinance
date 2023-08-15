@@ -18,10 +18,10 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
             session_start();
         }
         $_SESSION["email"] = $email;
-        $_SESSION["senha"] = $senha;
+        
         
         // Redirecionar para a página de destino
-        header('Location: ../inicio/home.php');
+        header('Location: ../menu/indexsidebar.php');
         
         exit();
     } else {
@@ -37,7 +37,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../02cadastroProdutos/img/favico.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/login.css">
 </head>
 

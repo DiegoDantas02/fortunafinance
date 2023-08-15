@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../menu/sidebarstyle.css"> 
     <title> Menu Responsivo</title>
 </head>
+<?php include "../inc/conexao.php";?>
 
 <body>
     <input type="checkbox" id="check">
@@ -30,12 +31,12 @@
     <div class="sidebar">
         <center>
             <img src="../img/icone.png" alt="" class="image">
-            <h2> Bryan </h2>
+            <h2><?php echo $nome; ?>></h2>
         </center>
         <a href="#"><ion-icon name="images-outline"></ion-icon><span>Inicio</span></a>
-        <a href="#"><ion-icon name="desktop-outline"></ion-icon><span>Painel</span></a>
+        <a href="../inicio//home.php"><ion-icon name="desktop-outline"></ion-icon><span>Painel</span></a>
         <!-- <a href="#"><ion-icon name="calendar-clear-outline"></ion-icon><span>Galeria</span></a> -->
-        <a href="../sobrenos/sobre.php"><ion-icon name="camera-outline"></ion-icon><span>Sobre</span></a>
+        <a href="../sobrenos/sobre.php"><ion-icon name=""></ion-icon><span>Sobre</span></a>
         <!-- <a href="#"><ion-icon name="settings-outline"></ion-icon><span>Configuração</span></a> -->
     </div>
     
