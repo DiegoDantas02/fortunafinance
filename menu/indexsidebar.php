@@ -40,6 +40,7 @@
     </div>
     <!-- Sidebar final  -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 
     <div class="content"></div>
 </body>
