@@ -25,6 +25,9 @@
         <div class="right">
             <a href="../tela-bloqueio/login.php" class="sair_btn">Sair</a>
         </div>
+        <div class="titulo">
+            <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
+        </div>
     </header>
     <!-- Header final -->
     <!-- Sidebar começo  -->
@@ -38,9 +41,8 @@
         <a href="../sobrenos/sobre.php"><ion-icon name="help-circle-outline" class="icon"></ion-icon><span>Sobre</span></a>
     </div>
     <!-- imagem principal -->
-    <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
     <div >
-        <img src="../img/paineis (2).png" alt="" class="img">
+        <img src="../img/MAIN.png" alt="" class="img">
     </div>
     <!-- fimi magem principal -->
     

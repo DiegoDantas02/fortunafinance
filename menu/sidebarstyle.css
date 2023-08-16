@@ -125,12 +125,17 @@ label #sidebar_btn:hover{
     margin-right: 10px; /* Adicione espaçamento à direita do ícone */
 }
 body{
-    background: linear-gradient(to left, #ffffff,#ea0000);
+    background:white;
+    overflow: hidden;
 }
 /* img principal */
 .img{
-    width: 1020px;
-    height: 800px;
+    width: 1100px;
+    height: 950px;
     margin-left: 500px;
+    
 }
 /* fim img principal */
+.titulo{
+    margin-top: 150px;
+}

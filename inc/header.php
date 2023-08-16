@@ -43,18 +43,21 @@
             font-size: 20px;
             color: #fff;
         }
-        /* cor de fundo botão inicio */
+        
+        /* Cor de fundo botão "Início" */
         .buttons a:nth-child(1) {
             background-color: green;
         }
-
+        
+        /* Cor de fundo botão "Sair" */
         .buttons a:nth-child(2) {
-            background-color:#555;
-            transition: 0.3s; /* Adicionado para criar um efeito de destaque botão inicio */
+            background-color: #555;
+            transition: 0.3s; /* Adicionado para criar um efeito de destaque no botão "Início" */
         }
 
-        .buttons a:nth-child(3):hover {
-            background-color: #555; /* Nova cor quando o mouse passa por cima botão sair */
+        /* Cor de fundo botão "Sair" no hover */
+        .buttons a:nth-child(2):hover {
+            background-color: #555;
         }
 
         @media screen and (max-width: 768px) {
@@ -72,7 +75,6 @@
             }
         }
     </style>
-    
 </head>
 
 <body>
