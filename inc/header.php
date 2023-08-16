@@ -16,10 +16,14 @@
         header {
             background-color: black; /* Fundo preto */
             color: white; /* Texto branco */
-            padding: 10px;
+            padding: 5px;
+            width: 1800px;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            position: fixed; /* Torna o cabeçalho fixo */
+            top: 0; /* Fixa no topo da página */
+            width: 100%; /* Faz o cabeçalho ocupar toda a largura */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow com deslocamento X, deslocamento Y, raio e cor */
         }
 
         .logo {
@@ -28,13 +32,13 @@
         }
 
         .buttons {
-            display: flex;
-            gap: 20px;
+            margin-top: 20px;
+            gap: 10px;
         }
 
         .buttons a {
             text-decoration: none;
-            padding: 10px 10px;
+            padding: 5px 10px;
             border-radius: 5px;
             font-size: 20px;
             color: #fff;
@@ -49,7 +53,7 @@
             transition: 0.3s; /* Adicionado para criar um efeito de destaque botão inicio */
         }
 
-        .buttons a:nth-child(2):hover {
+        .buttons a:nth-child(3):hover {
             background-color: #555; /* Nova cor quando o mouse passa por cima botão sair */
         }
 
@@ -68,7 +72,7 @@
             }
         }
     </style>
-    <title>Controle de despesas</title>
+    
 </head>
 
 <body>
@@ -77,7 +81,7 @@
             <img src="../img/logo.png" alt="Logo" class="logo">
         </a>
         <div class="buttons">
-            <a href="../inicio/home.php">Início</a>
+            <a href="../menu/indexsidebar.php">Início</a>
             <a href="../tela-bloqueio/login.php">Sair</a>
         </div>
     </header>

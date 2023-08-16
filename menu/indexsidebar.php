@@ -27,7 +27,6 @@
         </div>
     </header>
     <!-- Header final -->
-
     <!-- Sidebar começo  -->
     <div class="sidebar">
         <center>
@@ -38,6 +37,12 @@
         <a href="../inicio/home.php"><ion-icon name="stats-chart-outline" class="icon"></ion-icon><span>Painel</span></a>
         <a href="../sobrenos/sobre.php"><ion-icon name="help-circle-outline" class="icon"></ion-icon><span>Sobre</span></a>
     </div>
+    <!-- imagem principal -->
+    <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
+    <div >
+        <img src="../img/paineis (2).png" alt="" class="img">
+    </div>
+    <!-- fimi magem principal -->
     
     <!-- Sidebar final  -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">

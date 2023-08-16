@@ -20,6 +20,7 @@ header{
     font-weight: 800;
 
 }
+
 .left span{
     color: #ffffff;/*cor da escrita segunda palavra*/
 }
@@ -106,12 +107,11 @@ label #sidebar_btn:hover{
     width:80px ;
 }
 .content{
-    background: url(../img/paineis.png) no-repeat;
+    
     background-size: cover;
     background-position: center;
     height: 100vh;
     transition: 0.5s
-    width: 100px;
 }
 #check:checked ~ .content{
     margin-left: 60px;
@@ -124,3 +124,13 @@ label #sidebar_btn:hover{
     font-size: 24px; /* Ajuste o tamanho do ícone conforme necessário */
     margin-right: 10px; /* Adicione espaçamento à direita do ícone */
 }
+body{
+    background: linear-gradient(to left, #ffffff,#ea0000);
+}
+/* img principal */
+.img{
+    width: 1020px;
+    height: 800px;
+    margin-left: 500px;
+}
+/* fim img principal */
