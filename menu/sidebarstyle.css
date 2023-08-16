@@ -133,9 +133,11 @@ body{
     width: 1100px;
     height: 950px;
     margin-left: 500px;
+    margin-top: 200px;
     
 }
 /* fim img principal */
 .titulo{
-    margin-top: 150px;
+    margin-top: 40px;
+    text-align: center;
 }
