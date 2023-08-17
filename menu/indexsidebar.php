@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../menu/sidebarstyle.css">
+    <link rel="shortcut icon" href="../img/icone.png" type="image/x-icon">
     
     
     <title>Menu Responsivo</title>
@@ -27,8 +28,10 @@
         </div>
         <div class="titulo">
             <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
+            <div class="btn">
+                <button href="../inicio/home.php">IR PARA O PAINEL</button>
+            </div>
         </div>
-        <button class="btn">IR PARA O PAINEL</button>
     </header>
     <!-- Header final -->
     <!-- Sidebar começo  -->
@@ -45,7 +48,7 @@
     <div >
         <img src="../img/MAIN.png" alt="" class="img">
     </div>
-    <!-- fimi magem principal -->
+    <!-- fim imagem principal -->
     
     <!-- Sidebar final  -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">

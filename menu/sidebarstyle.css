@@ -143,5 +143,7 @@ body{
     text-align: center;
 }
 .btn{
-    margin-left: 100px;
+    align-items: center;
+    margin-top: 630px;
+    margin-left: -600px;
 }
