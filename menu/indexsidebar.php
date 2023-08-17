@@ -28,8 +28,8 @@
         </div>
         <div class="titulo">
             <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
-            <div class="btn">
-                <button href="../inicio/home.php">IR PARA O PAINEL</button>
+            <div >
+                <button href="../inicio/home.php" class="btn"><strong>IR PARA O PAINEL</strong></button>
             </div>
         </div>
     </header>
