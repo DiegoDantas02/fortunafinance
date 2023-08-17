@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../menu/sidebarstyle.css">
-    <!-- Certifique-se de incluir o link para a fonte do Ionicons -->
+    
     
     <title>Menu Responsivo</title>
 </head>
@@ -28,6 +28,7 @@
         <div class="titulo">
             <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
         </div>
+        <button class="btn">IR PARA O PAINEL</button>
     </header>
     <!-- Header final -->
     <!-- Sidebar começo  -->
