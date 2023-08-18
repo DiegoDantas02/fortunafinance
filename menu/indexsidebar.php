@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../menu/sidebarstyle.css">
     <link rel="shortcut icon" href="../img/icone.png" type="image/x-icon">
-
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200;1,600&display=swap">
+    <link rel="stylesheet" href="styles.css">
     <title>Menu Responsivo</title>
 </head>
 <?php include "../inc/conexao.php"; ?>
@@ -15,7 +18,6 @@
     <input type="checkbox" id="check">
 
     <header>
-        <!-- Header start -->
         <label for="check">
             <ion-icon name="menu-outline" id="sidebar_btn"></ion-icon>
         </label>
@@ -29,8 +31,7 @@
             <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
         </div>
     </header>
-    <!-- Header end -->
-    
+
     <div class="sidebar">
         <center>
             <img src="../img/icone.png" alt="" class="image">
@@ -40,18 +41,13 @@
         <a href="../inicio/home.php"><ion-icon name="stats-chart-outline" class="icon"></ion-icon><span>Painel</span></a>
         <a href="../sobrenos/sobre.php"><ion-icon name="help-circle-outline" class="icon"></ion-icon><span>Sobre</span></a>
     </div>
-    
-    <div>
+
+    <div class="content">
         <img src="../img/MAIN.png" alt="" class="img">
         <div>
             <button><a href="../inicio/home.php" class="btn">IR PARA O PAINEL</a></button>
         </div>
     </div>
-
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-
-    <div class="content"></div>
 </body>
 
 </html>
