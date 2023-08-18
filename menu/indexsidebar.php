@@ -27,13 +27,10 @@
         </div>
         <div class="titulo">
             <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
-            <div>
-                <a href="../inicio/home.php" class="link-home">IR PARA O PAINEL</a>
-                </div>
         </div>
     </header>
     <!-- Header end -->
-
+    
     <div class="sidebar">
         <center>
             <img src="../img/icone.png" alt="" class="image">
@@ -43,9 +40,12 @@
         <a href="../inicio/home.php"><ion-icon name="stats-chart-outline" class="icon"></ion-icon><span>Painel</span></a>
         <a href="../sobrenos/sobre.php"><ion-icon name="help-circle-outline" class="icon"></ion-icon><span>Sobre</span></a>
     </div>
-
+    
     <div>
         <img src="../img/MAIN.png" alt="" class="img">
+        <div>
+            <button><a href="../inicio/home.php" class="btn">IR PARA O PAINEL</a></button>
+        </div>
     </div>
 
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
