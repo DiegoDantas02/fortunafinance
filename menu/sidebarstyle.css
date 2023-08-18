@@ -148,25 +148,24 @@ body {
 .img {
     width: 1300px;
     height: auto;
-    margin-left:350px;
+    margin-left: 400px;
     margin-top: 10px;
 
-   
+
 }
 
 .titulo {
     color: green;
     margin-top: 20px;
     text-align: center;
-    
+
 }
 
-.btn{
+.btn {
     display: flex;
     text-align: center;
-    margin-top: -800px;
+    
     margin-left: 500px;
-    margin-right: auto;
     width: 200px;
     height: 50px;
     border-radius: 100px;
@@ -175,4 +174,4 @@ body {
     font-size: 18px;
     color: white;
     text-decoration: none;
-} 
+}
