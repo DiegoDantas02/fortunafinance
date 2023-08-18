@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200;1,600&display=swap">
-    <link rel="stylesheet" href="styles.css">
-    <title>Menu Responsivo</title>
+    
+    <title>Menu - Pagína inicial</title>
 </head>
 <?php include "../inc/conexao.php"; ?>
 
@@ -43,10 +43,9 @@
     </div>
 
     <div class="content">
+        
         <img src="../img/MAIN.png" alt="" class="img">
-        <div>
-            <button><a href="../inicio/home.php" class="btn">IR PARA O PAINEL</a></button>
-        </div>
+        <button class="btn">  IR PARA O PAINEL</button>
     </div>
 </body>
 

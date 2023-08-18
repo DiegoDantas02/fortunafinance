@@ -120,7 +120,7 @@ label #sidebar_btn:hover {
 }
 
 .content {
-    background-size: cover;
+    background-size: flex;
     background-position: center;
     height: 100vh;
     transition: 0.5s;
@@ -153,7 +153,6 @@ body {
 
 
 }
-
 .titulo {
     color: green;
     margin-top: 20px;
@@ -164,8 +163,8 @@ body {
 .btn {
     display: flex;
     text-align: center;
-    
-    margin-left: 500px;
+    margin-left: 600px;
+    margin-top: -250px;
     width: 200px;
     height: 50px;
     border-radius: 100px;
@@ -174,4 +173,5 @@ body {
     font-size: 18px;
     color: white;
     text-decoration: none;
+    
 }
