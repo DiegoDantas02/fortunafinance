@@ -6,7 +6,7 @@ body {
 }
 /* header */
 header {
-    background-color:black;
+    background-color: #073816;
     padding: 2px;
     text-align: center;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -26,7 +26,7 @@ header {
 }
 /* rodapé */
 footer {
-    background-color:black;
+    background: #073816;
     padding: 10px;
     color: aliceblue;
     text-align: center;
