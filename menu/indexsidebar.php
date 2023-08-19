@@ -13,7 +13,7 @@
     <title>Menu - Pagína inicial</title>
 </head>
 <?php include "../inc/conexao.php"; ?>
-<!-- <style>
+<style>
     /* RESPONSIVO */
 @media screen and (max-width: 768px) {
     .sidebar {
@@ -43,7 +43,7 @@
         margin-top: 20px;
     }
 }
-</style> -->
+</style>
 <body>
     <input type="checkbox" id="check">
 
@@ -73,7 +73,6 @@
     </div>
 
     <div class="content">
-
         <img src="../img/main.png" alt="" class="img">
         <div class="button-container">
             <a href="../inicio/home.php" class="btn" style="padding: 50px;">IR PARA O PAINEL</a>
