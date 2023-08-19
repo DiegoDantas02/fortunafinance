@@ -19,9 +19,9 @@
 /* ////////// */
 .button-container{
     display: flex;
-    text-align: center;
-    margin-left: 30px;
-    margin-top: -90px; 
+  
+    margin-left: 50px;
+    margin-top: 20px; 
     width: 200px;
     height: 50px;
     border-radius: 50px;
@@ -64,7 +64,7 @@
 
     <div class="content">
         <img src="../img/main.png" alt="" class="img">
-        <div class="button-container">
+        <div class="button-container" style="align-items: center;">
             <a href="../inicio/home.php" class="btn" style="padding: 50px;">IR PARA O PAINEL</a>
         </div>
         </div>
