@@ -15,18 +15,45 @@
 <?php include "../inc/conexao.php"; ?>
 <style>
     /* RESPONSIVO */
+    @media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        left: -250px;
+    }
 
+    .content {
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    .button-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+}   
     /* ////////// */
     
 </style>
-
+<!-- headerrr -->
 <body>
     <input type="checkbox" id="check">
 
     <header>
-        <label for="check">
+        <!-- <label for="check">
             <ion-icon name="menu-outline" id="sidebar_btn"></ion-icon>
-        </label>
+        </label> -->
         <div class="left">
             <h3>$Fortuna <span>Finance</span></h3>
         </div>
@@ -37,6 +64,7 @@
             <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
         </div>
     </header>
+<!--Fimmm do  headerrr -->
 
     <div class="sidebar">
         <center>
@@ -51,7 +79,7 @@
     <div class="content">
         <img src="../img/main.png" alt="" class="img">
 
-        <div>
+        <div style="width: auto;height: auto;">
             <p><a href="../inicio/home.php" style="border-radius: 50px; color:white;background: linear-gradient(135deg, #0097b2, #7ed957); text-decoration:none; position: absolute; top: 75%; left: 35%; transform: translate(-50%, -50%);padding: 10px 20px;">IR PARA O PAINEL</a></p>
         </div>
         

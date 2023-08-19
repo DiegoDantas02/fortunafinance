@@ -87,7 +87,7 @@
             <a href="../tela-bloqueio/login.php">Sair</a>
         </div>
     </header>
-    <!-- Resto do conteúdo da página -->
+
 </body>
 
 </html>
