@@ -15,43 +15,16 @@
 <?php include "../inc/conexao.php"; ?>
 <style>
     /* RESPONSIVO */
-@media screen and (max-width: 768px) {
-    .sidebar {
-        width: 100%;
-        left: -250px;
-    }
 
-    .content {
-        background-size: cover;
-        background-position: center;
-        height: auto;
-    }
-
-    .img {
-        width: 100%;
-        height: auto;
-        margin-left: 0;
-        margin-top: 20px;
-    }
-
-    .titulo {
-        font-size: 24px;
-    }
-
-    .button-container {
-        text-align: center;
-        margin-top: 20px;
-    }
-}
 /* ////////// */
 .button-container{
     display: flex;
     text-align: center;
-    margin-left: 600px;
-    margin-top: -250px; 
+    margin-left: 30px;
+    margin-top: -90px; 
     width: 200px;
     height: 50px;
-    border-radius: 100px;
+    border-radius: 50px;
     background: linear-gradient(135deg, #0097b2, #7ed957);
     box-shadow: 0px 4px 10px rgba(0, 255, 4, 0.2);
     font-size: 20px;

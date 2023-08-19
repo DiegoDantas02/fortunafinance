@@ -153,5 +153,31 @@ body {
     size: 100px;
 }
 
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        left: -250px;
+    }
 
+    .content {
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
 
+    .img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    .button-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
