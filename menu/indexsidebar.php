@@ -16,24 +16,10 @@
 <style>
     /* RESPONSIVO */
 
-/* ////////// */
-.button-container{
-    display: flex;
-  
-    margin-left: 50px;
-    margin-top: 20px; 
-    width: 200px;
-    height: 50px;
-    border-radius: 50px;
-    background: linear-gradient(135deg, #0097b2, #7ed957);
-    box-shadow: 0px 4px 10px rgba(0, 255, 4, 0.2);
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
+    /* ////////// */
     
-} 
-
 </style>
+
 <body>
     <input type="checkbox" id="check">
 
@@ -64,10 +50,12 @@
 
     <div class="content">
         <img src="../img/main.png" alt="" class="img">
-        <div class="button-container" style="align-items: center;">
-            <a href="../inicio/home.php" class="btn" style="padding: 50px;">IR PARA O PAINEL</a>
+
+        <div>
+            <p><a href="../inicio/home.php" style="border-radius: 50px; color:white;background: linear-gradient(135deg, #0097b2, #7ed957); text-decoration:none; position: absolute; top: 75%; left: 35%; transform: translate(-50%, -50%);padding: 10px 20px;">IR PARA O PAINEL</a></p>
         </div>
-        </div>
-        </body>
+        
+    </div>
+</body>
 
 </html>
