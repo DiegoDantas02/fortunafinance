@@ -43,6 +43,23 @@
         margin-top: 20px;
     }
 }
+/* ////////// */
+.button-container{
+    display: flex;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: -250px; 
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    background: linear-gradient(135deg, #0097b2, #7ed957);
+    box-shadow: 0px 4px 10px rgba(0, 255, 4, 0.2);
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    
+} 
+
 </style>
 <body>
     <input type="checkbox" id="check">
