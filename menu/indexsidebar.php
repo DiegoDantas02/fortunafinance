@@ -9,11 +9,41 @@
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200;1,600&display=swap">
-    
+
     <title>Menu - Pagína inicial</title>
 </head>
 <?php include "../inc/conexao.php"; ?>
+<!-- <style>
+    /* RESPONSIVO */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        left: -250px;
+    }
 
+    .content {
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    .button-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+</style> -->
 <body>
     <input type="checkbox" id="check">
 
@@ -27,7 +57,7 @@
         <div class="right">
             <a href="../tela-bloqueio/login.php" class="sair_btn">Sair</a>
         </div>
-        <div class="titulo">
+        <div style=" color: green; margin-top: 20px; text-align: center;">
             <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
         </div>
     </header>
@@ -43,10 +73,12 @@
     </div>
 
     <div class="content">
-        
-        <img src="../img/MAIN.png" alt="" class="img">
-        <button class="btn">  IR PARA O PAINEL</button>
-    </div>
-</body>
+
+        <img src="../img/main.png" alt="" class="img">
+        <div class="button-container">
+            <a href="../inicio/home.php" class="btn" style="padding: 50px;">IR PARA O PAINEL</a>
+        </div>
+        </div>
+        </body>
 
 </html>

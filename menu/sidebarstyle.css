@@ -141,37 +141,32 @@ label #sidebar_btn:hover {
 
 body {
     background: white;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
 }
 
 .img {
-    width: 1300px;
+    width: auto;
     height: auto;
     margin-left: 400px;
     margin-top: 10px;
-
-
-}
-.titulo {
-    color: green;
-    margin-top: 20px;
-    text-align: center;
-
+    
 }
 
-.btn {
+
+.button-container{
     display: flex;
     text-align: center;
     margin-left: 600px;
-    margin-top: -250px;
+    margin-top: -250px; 
     width: 200px;
     height: 50px;
     border-radius: 100px;
     background: linear-gradient(135deg, #0097b2, #7ed957);
     box-shadow: 0px 4px 10px rgba(0, 255, 4, 0.2);
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     
-}
+} 
+
