@@ -1,5 +1,6 @@
 <?php include "../inc/header.php"; ?>
 <?php include "../inc/conexao.php"; ?>
+<?php include "../tela-bloqueio/inserir.php"; ?>
 <div>
     <a href="../tela-bloqueio/login.php">
         <img src="../img/logo.png" alt="imagem do logo da empresa" class="logo">
