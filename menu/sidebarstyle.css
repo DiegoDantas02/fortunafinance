@@ -30,13 +30,12 @@ header {
 
 .sair_btn {
     padding: 7px;
-    background: #0e6027;
+    border-radius: 30px; color:white;background: linear-gradient(135deg, #0097b2, #7ed957);
     text-decoration: none;
     float: right;
     margin-top: -45px;
     margin-right: 40px;
-    border-radius: 4px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     color: #fff;
     transition: 0.5s;
@@ -44,6 +43,25 @@ header {
 }
 
 .sair_btn:hover {
+    background: #4a9fcf;
+}
+.painel_btn {
+    padding: 5px;
+    background: #0e6027;
+    text-decoration: none;
+    float: right;
+    margin-top: -45px;
+    margin-right: 110px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+    border-radius: 50px; color:white;background: linear-gradient(135deg, #0097b2, #7ed957);
+}
+
+.painel_btn:hover {
     background: #4a9fcf;
 }
 

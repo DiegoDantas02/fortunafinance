@@ -60,6 +60,9 @@
         <div class="right">
             <a href="../tela-bloqueio/login.php" class="sair_btn">Sair</a>
         </div>
+        <div class="right">
+            <a href="../tela-bloqueio/login.php" class="painel_btn">Ir para o Painel</a>
+        </div>
         <div style=" color: green; margin-top: 20px; text-align: center;">
             <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
         </div>
@@ -79,9 +82,9 @@
     <div class="content">
         <img src="../img/main.png" alt="" class="img">
 
-        <div style="width: auto;height: auto;">
+        <!-- <div style="width: auto;height: auto;">
             <p><a href="../inicio/home.php" style="border-radius: 50px; color:white;background: linear-gradient(135deg, #0097b2, #7ed957); text-decoration:none; position:absolute; top: 75%; left: 35%; transform: translate(-50%, -50%);padding: 10px 20px;">IR PARA O PAINEL</a></p>
-        </div>
+        </div> -->
         
     </div>
 </body>
