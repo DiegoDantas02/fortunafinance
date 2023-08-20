@@ -63,7 +63,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
             <button type="submit" >Entrar</button>
         </form>
 
-        <p>Ainda não tem uma conta? <a href="cadastro.php">Cadastrar-se</a></p>
+        <p>Ainda não tem uma conta? <a href="../tela-bloqueio/cadastro.php">Cadastrar-se</a></p>
 
     </div>
 </body>

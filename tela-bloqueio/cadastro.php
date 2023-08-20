@@ -1,6 +1,6 @@
-<?php include "../inc/header.php"; ?>
+
 <?php include "../inc/conexao.php"; ?>
-<?php include "../tela-bloqueio/inserir.php"; ?>
+
 <div>
     <a href="../tela-bloqueio/login.php">
         <img src="../img/logo.png" alt="imagem do logo da empresa" class="logo">
@@ -42,7 +42,7 @@
                 <button type="submit">REGISTRAR</button>
             </form>
 
-            <p>Já tem conta? <a href="login.php" style="text-decoration: none; color:#4CAF50">Faça Login</a></p>
+            <p>Já tem conta? <a href="../tela-bloqueio/login.php" style="text-decoration: none; color:#4CAF50">Faça Login</a></p>
         </div>
 
 
