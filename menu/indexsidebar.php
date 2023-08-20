@@ -80,7 +80,7 @@
         <img src="../img/main.png" alt="" class="img">
 
         <div style="width: auto;height: auto;">
-            <p><a href="../inicio/home.php" style="border-radius: 50px; color:white;background: linear-gradient(135deg, #0097b2, #7ed957); text-decoration:none; position: absolute; top: 75%; left: 35%; transform: translate(-50%, -50%);padding: 10px 20px;">IR PARA O PAINEL</a></p>
+            <p><a href="../inicio/home.php" style="border-radius: 50px; color:white;background: linear-gradient(135deg, #0097b2, #7ed957); text-decoration:none; position:absolute; top: 75%; left: 35%; transform: translate(-50%, -50%);padding: 10px 20px;">IR PARA O PAINEL</a></p>
         </div>
         
     </div>
