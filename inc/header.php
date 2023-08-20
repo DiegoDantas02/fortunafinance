@@ -65,6 +65,7 @@
         /* Cor de fundo botão "Sair" no hover */
         .buttons a:nth-child(2):hover {
             background-color: #555;
+            
         }
 
         @media screen and (max-width: 768px) {

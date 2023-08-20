@@ -61,7 +61,7 @@
             <a href="../tela-bloqueio/login.php" class="sair_btn">Sair</a>
         </div>
         <div class="right">
-            <a href="../tela-bloqueio/login.php" class="painel_btn">Ir para o Painel</a>
+            <a href="../inicio/home.php" class="painel_btn">Ir para o Painel</a>
         </div>
         <div style=" color: green; margin-top: 20px; text-align: center;">
             <h1>SEJA BEM VINDO AO SEU GERENCIADOR DE FINANÇAS</h1>
