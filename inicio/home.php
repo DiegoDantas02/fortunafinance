@@ -6,6 +6,7 @@
 <!-- css da home.php config do layout principal -->
 <link rel="stylesheet" href="../inicio/style.css" />
 <!-- ------------------------------------------ -->
+<link rel="shortcut icon" href="../img/faavmain.png" type="image/x-icon">
 <div>
     
 </div>

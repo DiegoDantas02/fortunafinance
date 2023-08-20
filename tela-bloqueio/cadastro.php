@@ -1,6 +1,6 @@
 
 <?php include "../inc/conexao.php"; ?>
-
+<link rel="shortcut icon" href="../img/faavmain.png" type="image/x-icon">
 <div>
     <a href="../tela-bloqueio/login.php">
         <img src="../img/logo.png" alt="imagem do logo da empresa" class="logo">
