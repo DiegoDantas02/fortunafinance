@@ -64,7 +64,8 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
         </form>
 
         <p>Ainda não tem uma conta? <a href="../tela-bloqueio/cadastro.php">Cadastrar-se</a></p>
-
+        <p>Esqueceu a Senha? <a href="../tela-bloqueio/redefinir-senha.php">Redefinir</a></p>
+        
     </div>
 </body>
 </html>
