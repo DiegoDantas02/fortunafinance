@@ -1,102 +1,102 @@
-<?php
-// Arquivo: redefinir-senha.php
+    <?php
+    // Arquivo: redefinir-senha.php
 
-// Verifica se a requisição foi feita através do método POST
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Verifica se os campos do formulário foram preenchidos
-    if (empty($_POST['username']) || empty($_POST['old_password']) || empty($_POST['new_password'])) {
-        echo "Por favor, preencha todos os campos.";
-    } else {
-        // Inclui o arquivo de conexão com o banco de dados
-        require_once 'conexao.php';
-
-        // Obtém os dados do formulário e faz o tratamento para evitar injeção de SQL
-        $username = $conexao->real_escape_string($_POST['username']);
-        $oldPassword = $conexao->real_escape_string($_POST['old_password']);
-        $newPassword = $conexao->real_escape_string($_POST['new_password']);
-
-        // Consulta SQL para verificar se o usuário existe no banco de dados
-        $sql = "SELECT * FROM tabela_usuarios WHERE username = '$username' AND password = '$oldPassword'";
-        $result = $conexao->query($sql);
-
-        // Verifica se ocorreu algum erro na consulta
-        if (!$result) {
-            die("Erro na consulta: " . $conexao->error);
-        }
-
-        // Verifica se o usuário existe no banco de dados e se a senha antiga está correta
-        if ($result->num_rows > 0) {
-            // Atualiza a senha do usuário no banco de dados
-            $updateSql = "UPDATE tabela_usuarios SET password = '$newPassword' WHERE username = '$username'";
-            if ($conexao->query($updateSql)) {
-                // Senha atualizada com sucesso
-                echo "Senha atualizada com sucesso!";
-            } else {
-                // Ocorreu um erro ao atualizar a senha
-                echo "Erro ao atualizar a senha: " . $conexao->error;
-            }
+    // Verifica se a requisição foi feita através do método POST
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        // Verifica se os campos do formulário foram preenchidos
+        if (empty($_POST['username']) || empty($_POST['old_password']) || empty($_POST['new_password'])) {
+            echo "Por favor, preencha todos os campos.";
         } else {
-            // Nome de usuário e/ou senha antiga incorretos
-            echo "Nome de usuário e/ou senha antiga incorretos. Verifique os dados e tente novamente.";
+            // Inclui o arquivo de conexão com o banco de dados
+            require_once 'conexao.php';
+
+            // Obtém os dados do formulário e faz o tratamento para evitar injeção de SQL
+            $username = $conexao->real_escape_string($_POST['username']);
+            $oldPassword = $conexao->real_escape_string($_POST['old_password']);
+            $newPassword = $conexao->real_escape_string($_POST['new_password']);
+
+            // Consulta SQL para verificar se o usuário existe no banco de dados
+            $sql = "SELECT * FROM tabela_usuarios WHERE username = '$username' AND password = '$oldPassword'";
+            $result = $conexao->query($sql);
+
+            // Verifica se ocorreu algum erro na consulta
+            if (!$result) {
+                die("Erro na consulta: " . $conexao->error);
+            }
+
+            // Verifica se o usuário existe no banco de dados e se a senha antiga está correta
+            if ($result->num_rows > 0) {
+                // Atualiza a senha do usuário no banco de dados
+                $updateSql = "UPDATE tabela_usuarios SET password = '$newPassword' WHERE username = '$username'";
+                if ($conexao->query($updateSql)) {
+                    // Senha atualizada com sucesso
+                    echo "Senha atualizada com sucesso!";
+                } else {
+                    // Ocorreu um erro ao atualizar a senha
+                    echo "Erro ao atualizar a senha: " . $conexao->error;
+                }
+            } else {
+                // Nome de usuário e/ou senha antiga incorretos
+                echo "Nome de usuário e/ou senha antiga incorretos. Verifique os dados e tente novamente.";
+            }
+
+            // Fecha a conexão com o banco de dados
+            $conexao->close();
         }
-
-        // Fecha a conexão com o banco de dados
-        $conexao->close();
     }
-}
-?>
+    ?>
 
-<!DOCTYPE html>
-<html lang="pt-br">
+    <!DOCTYPE html>
+    <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/redefinir-senha.css">
-    <link rel="shortcut icon" href="../img/faavmain.png" type="image/x-icon">
-    
-
-</head>
-<style>
-    .logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 200px;
-    cursor: pointer;
-}
-</style>
-<body>
-    <div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/redefinir-senha.css">
+        <link rel="shortcut icon" href="../img/faavmain.png" type="image/x-icon">
         
-        <a href="../tela-bloqueio/login.php">
-                <img src="../img/logo.png" alt="imagem do logo da empresa" class="logo">
-            </a>
-    </div>
 
-    <div class="container">
-        <h1><strong>REDEFINIR SENHA</strong></h1>
-        <br>
-        <br>
+    </head>
+    <style>
+        .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 200px;
+        cursor: pointer;
+    }
+    </style>
+    <body>
+        <div>
+            
+            <a href="../tela-bloqueio/login.php">
+                    <img src="../img/logo.png" alt="imagem do logo da empresa" class="logo">
+                </a>
+        </div>
 
-        <form method="POST" action="redefinir-senha.php">
-            <p class="descrição1">Nome de Usuário:</p>
-            <input type="text" name="username" placeholder="Fortuna Company" required>
+        <div class="container">
+            <h1><strong>REDEFINIR SENHA</strong></h1>
             <br>
-            <p class="descrição">Antiga Senha:</p>
-            <input type="password" name="old_password" placeholder="Senha" required>
             <br>
-            <p class="descrição">Nova Senha:</p>
-            <input type="password" name="new_password" placeholder="Senha" required>
-            <br>
-            <br>
-            <button type="submit">Entrar</button>
-        </form>
 
-        <p>Já tem conta? <a href="login.php" style="text-decoration: none; color:green;">Efetuar Login</a></p>
+            <form method="POST" action="redefinir-senha.php">
+                <p class="descrição1">Nome de Usuário:</p>
+                <input type="text" name="username" placeholder="Fortuna Company" required>
+                <br>
+                <p class="descrição">Antiga Senha:</p>
+                <input type="password" name="old_password" placeholder="Senha" required>
+                <br>
+                <p class="descrição">Nova Senha:</p>
+                <input type="password" name="new_password" placeholder="Senha" required>
+                <br>
+                <br>
+                <button type="submit">Entrar</button>
+            </form>
 
-    </div>
+            <p>Já tem conta? <a href="login.php" style="text-decoration: none; color:green;">Efetuar Login</a></p>
 
-</body>
+        </div>
 
-</html>
+    </body>
+
+    </html>
