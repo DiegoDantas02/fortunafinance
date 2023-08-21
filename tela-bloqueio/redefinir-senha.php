@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <button type="submit">Entrar</button>
         </form>
 
-        <p>Já tem conta? <a href="login.php" style="text-decoration: none;">Efetuar Login</a></p>
+        <p>Já tem conta? <a href="login.php" style="text-decoration: none; color:green;">Efetuar Login</a></p>
 
     </div>
 
