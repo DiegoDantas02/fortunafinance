@@ -75,7 +75,7 @@
         </div>
 
         <div class="container">
-            <h1><strong>REDEFINIR SENHA</strong></h1>
+            <h1 style="color: green;"><strong>REDEFINIR SENHA</strong></h1>
             <br>
             <br>
 

@@ -13,7 +13,20 @@
     <link rel="stylesheet" href="../css/cadastro.css">
     </head>
     <body>
+<style>
+.container {
+    width: 350px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 150px;
+    margin-left: center;
 
+}
+</style>
         <div class="container">
 
             <h1 style="color:#45a049"> <strong>CADASTRO</strong> </h1>
