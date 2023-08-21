@@ -18,7 +18,7 @@ body {
     border-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: center;
 
 }
@@ -41,6 +41,7 @@ body {
     color: #fff;
     border-radius: 3px;
     cursor: pointer;
+
 }
 
 .container button:hover {
@@ -51,10 +52,4 @@ body {
 }
 .descrição1{
     margin-left: -210px;
-}
-.logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 10px;
 }
