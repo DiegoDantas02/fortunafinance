@@ -47,18 +47,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/redefinir-senha.css">
+    <link rel="shortcut icon" href="../img/faavmain.png" type="image/x-icon">
 
 </head>
 
 <body>
     <div>
-        <img src="../img/logo.png" alt="imagem do logo da empresa" class="logo">
+        
+        <a href="../tela-bloqueio/login.php">
+                <img src="../img/logo.png" alt="imagem do logo da empresa" class="logo">
+            </a>
     </div>
 
     <div class="container">
@@ -80,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <button type="submit">Entrar</button>
         </form>
 
-        <p>Já tem conta? <a href="login.php">Efetuar Login</a></p>
+        <p>Já tem conta? <a href="login.php" style="text-decoration: none;">Efetuar Login</a></p>
 
     </div>
 

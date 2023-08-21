@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff;
     background-image: url(../img/doisboss.png);
     background-size: cover;
     background-position: center;
@@ -14,9 +14,9 @@ body {
     width: 350px;
     margin: 0 auto;
     padding: 90px;
-    background-color: darkgray;
+    background-color: #fff;
     border-radius: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
     text-align: center;
     margin-top: 100px;
     margin-left: center;
@@ -28,7 +28,7 @@ body {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 3px;
     box-sizing: border-box;
 }
@@ -56,5 +56,7 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 100px;
+    width: 500px;
+    cursor: pointer;
+    
 }
